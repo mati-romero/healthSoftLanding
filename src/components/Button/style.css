@@ -1,0 +1,36 @@
+:root {
+  --classic: #1BA8B2;
+  --cream: #F8F8F8;
+  --coal: #333333;
+}
+
+.btn-classic {
+    background-color: #1BA8B2;
+    color: var(--cream);
+}
+
+.btn-classic:hover {
+    background-color: #6FB8BD;
+    color: var(--cream);
+}
+
+.btn-classic-cream {
+    background-color: #6FB8BD;
+    color: var(--cream);
+}
+
+.btn-classic-cream:hover {
+    background-color: #9BCBCF;
+    color: var(--cream);
+}
+
+.btn-action {
+    background-color: #F47B1E;
+    color: var(--cream);
+}
+
+.btn-action:hover {
+    background-color: #FF9C4A;
+    color: var(--cream);
+}
+

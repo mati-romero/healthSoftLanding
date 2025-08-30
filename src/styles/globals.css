@@ -1,0 +1,35 @@
+:root {
+  --classic: #1BA8B2;
+  --cream: #F8F8F8;
+  --coal: #333333;
+}
+
+/* general */
+
+body {
+  background-color: var(--cream);
+}
+
+/* background */
+
+.bg-classic {
+  background-color: var(--classic);
+}
+
+.bg-cream {
+  background-color: var(--cream)
+}
+
+.bg-coal {
+  color: var(--coal);
+}
+
+/* text */
+
+.text-cream {
+  color: var(--cream);
+}
+
+.text-coal {
+  color: var(--coal);
+}
