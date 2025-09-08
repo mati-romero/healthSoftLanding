@@ -1,0 +1,20 @@
+.card {
+    border-radius: 30px;
+    text-align: center;
+    width: 320px;
+    min-height: 200px;
+    box-shadow: 2px 2px 6px 1px black;
+}
+
+.card-icon-wrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #E6F7F8; /* círculo (puedes usar #F47B1E o #1BA8B2) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #1BA8B2; /* color del ícono */
+  font-size: 1.5rem;
+}

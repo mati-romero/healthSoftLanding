@@ -1,13 +1,29 @@
+@import './fonts-lato.css';
+@import './fonts-nunito.css';
+
+
 :root {
   --classic: #1BA8B2;
   --cream: #F8F8F8;
   --coal: #333333;
+  --plomizo : #919090;
 }
 
 /* general */
 
 body {
   background-color: var(--cream);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
+  color: var(--plomizo);
 }
 
 /* background */
@@ -32,4 +48,8 @@ body {
 
 .text-coal {
   color: var(--coal);
+}
+
+.text-classic {
+  color: var(--classic);
 }
